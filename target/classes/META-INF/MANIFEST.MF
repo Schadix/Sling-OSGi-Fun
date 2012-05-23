@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simple OSGITest
+Bundle-SymbolicName: mh.osgitest
+Bundle-Version: 1.0.0
+Bundle-Activator: mh.osgitest.Activator
+Bundle-Vendor: Moritz Havelock
+Import-Package: org.osgi.framework;version="1.3.0"
+Export-Package: mh.osgitest;version=0.0.1
+Bundle-ClassPath: .
