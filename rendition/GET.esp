@@ -1,0 +1,6 @@
+<%
+  var service =
+  sling.getService(Packages.mh.osgitest.SampleService);
+ %>
+
+<%= service.sayHello() %>
