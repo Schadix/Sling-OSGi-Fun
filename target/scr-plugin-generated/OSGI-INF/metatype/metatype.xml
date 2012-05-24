@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <metatype:OCD id="mh.osgitest.SampleServiceImpl" name="%mh.osgitest.SampleServiceImpl.name" description="%mh.osgitest.SampleServiceImpl.description"/>
+    <metatype:Designate pid="mh.osgitest.SampleServiceImpl">
+        <metatype:Object ocdref="mh.osgitest.SampleServiceImpl"/>
+    </metatype:Designate>
+</metatype:MetaData>
