@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
-    <scr:component enabled="true" name="mh.osgitest.SampleServiceImpl">
-        <scr:implementation class="mh.osgitest.SampleServiceImpl"/>
-        <scr:service servicefactory="false">
-            <scr:provide interface="mh.osgitest.SampleService"/>
-        </scr:service>
-        <scr:property name="service.pid" value="mh.osgitest.SampleServiceImpl" private="false"/>
-    </scr:component>
-</components>
