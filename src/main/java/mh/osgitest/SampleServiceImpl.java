@@ -8,6 +8,6 @@ package mh.osgitest;
  */
 public class SampleServiceImpl implements SampleService {
 	public String sayHello() {
-		return "Hello 4th World!";
+		return "Hello 4th World! This is the hotfix";
 	}
 }
